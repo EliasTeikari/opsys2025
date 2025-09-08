@@ -14,11 +14,11 @@ Järgnevalt esitan enda lahenduse tõestuse, mis on ka selle githubi repos erald
 
 ## Tõestusmaterjalid
 
-1. VirtualBoxi seadistused
+1. Windows 11 süsteemi info ja aktiveerimine
 
 <img width="2068" height="1347" alt="W11_Settings_Terminal" src="https://github.com/user-attachments/assets/a3ca7b61-22ce-4fe4-b343-4e346310e248" />
 
-2. Windows 11 süsteemi info ja aktiveerimine
+2. VirtualBoxi seadistused
 
 <img width="961" height="1128" alt="VirtualBox_Manager_Details" src="https://github.com/user-attachments/assets/14a885f4-93b8-44ad-99fd-ca86fc8a7430" />
 
