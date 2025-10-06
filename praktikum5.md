@@ -40,3 +40,11 @@ Kustutada saavad ainult faili omanik (peeter), kataloogi omanik (opetaja) ja roo
 
 ### Ülesanne 5-8 ###
 
+<img width="824" height="324" alt="5-8_ülesanne" src="https://github.com/user-attachments/assets/f4a502f5-7665-4fb8-aa2b-4076bec6c1fa" />
+
+### Ülesanne 5-9 ### 
+
+<img width="689" height="191" alt="5-9 lahenndus" src="https://github.com/user-attachments/assets/8fc7cd7f-d3fc-431f-bb3d-5cae86caf3ce" />
+
+Ainult root-kasutaja saab muuta või eemaldada +i atribuudi.Faili ei saa kirjutada, muuta ega kustutada isegi omanik.
+Faili saab kustutada ainult pärast atribuudi eemaldamist käsuga sudo chattr -i testfail-2 ja seejärel sudo rm testfail-2.
