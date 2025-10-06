@@ -1,4 +1,4 @@
-#Praktikum 5 - Linux failiõigused#
+# Praktikum 5 - Linux failiõigused #
 
 
 ## Lahendused ##
