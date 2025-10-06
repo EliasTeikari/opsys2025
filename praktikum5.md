@@ -22,3 +22,6 @@ See võimaldab ka hiljem paindlikult lisada kasutajaid ühiskasutusega gruppides
 <img width="1012" height="254" alt="yl 5-4" src="https://github.com/user-attachments/assets/cdf43445-e89f-44d6-838a-557e08d4dcc0" />
 
 ### Ülesanne 5-5 ###
+
+<img width="919" height="332" alt="yl 5-5" src="https://github.com/user-attachments/assets/5c9c3b9d-e695-4a2d-bb93-591e14bdfd4e" />
+Setuid õigus võimaldab programmil käivituda faili omaniku õigustes. Antud juhul saab kasutaja jukuisa lugeda faili hinded.txt, mis on tegelikult ainult kasutajale opetaja loetav. Programm tötab opetaja õigustes, seega saab ta faili avada ja kuvada Juku hinded.
