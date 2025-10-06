@@ -7,6 +7,8 @@
 
 <img width="591" height="165" alt="yl-5-1" src="https://github.com/user-attachments/assets/0d9d828b-590f-400f-96f1-e78c0bb507db" />
 
+Faili minufail.txt lugemiseks peab kasutajal olema kataloogil /tmp/kaust vähemalt x (execute) õigus, et ta saaks kausta siseneda, ning failil endal r (read) õigus, et faili sisu oleks loetav. Faili kustutamiseks peab kasutajal olema kataloogil /tmp/kaust õigused w (write) ja x (execute), sest kustutamine toimub kausta tasemel, mitte faili sees, ning failil endal ei pea seejuures olema ühtegi õigust.
+
 ### Ülesanne 5-2 ###
 
 Shelli skripti käivitamiseks ei piisa ainult käivitusõigusest, sest shell peab saama faili sisu lugeda, et seda tõlgendada.
