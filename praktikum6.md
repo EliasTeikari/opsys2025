@@ -38,9 +38,6 @@ Sain ka mõned “???” sõnumid, mille ID väärtused olid alla 45000.
 
 22:51:03.422,274,"???",0,0
 
-See vastab sõnumile WM_SYSCOMMAND (ID 274), mida Windows saadab siis, kui kasutaja klikib akna tiitliriba nupul (nt minimeerimine, maksimeerimine või sulgemine). Antud sõnum ei olnud tõlketabelis (konst.csv), seetõttu kuvatigi nime asemel “???”.
-Infoallikas:
+See vastab sõnumile WM_SYSCOMMAND (ID 274), mida Windows saadab siis, kui kasutaja klikib akna tiitliriba nupul (nt minimeerimine, maksimeerimine või sulgemine). Antud sõnum ei olnud tõlketabelis (konst.csv), seetõttu kuvatigi nime asemel “???”. 
+Info:
 [https://learn.microsoft.com/en-us/windows/win32/winmsg/wm-syscommand](https://learn.microsoft.com/en-us/windows/win32/winmsg/wm-syscommand)
-
-
-Kas soovid, et ma vormindan selle sulle markdown-tabeli kujul (nagu mõnel teisel praktikumi osal), et saad sama stiili hoida kogu failis?
