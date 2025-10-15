@@ -1,37 +1,17 @@
-# Praktikum 5 – Failiõigused Linuxis
+# Praktikum 6 - Protsessid ja signaalid #
 
-## Ülesanne 5-1
-- a) Lugemiseks minimaalsed õigused:
-  - Kaust **/tmp/kaust**: **x**
-  - Fail **minufail.txt**: **r**
-- b) Kustutamiseks minimaalsed õigused:
-  - Kaust **/tmp/kaust**: **w+x**
-  - Fail **minufail.txt**: pole nõutud
+## 1 Ülesanne ##
+<img width="1706" height="1391" alt="esimene" src="https://github.com/user-attachments/assets/2da1a781-51f8-4d3b-8daf-141c3e0c65d0" />
 
-## Ülesanne 5-2
-Selgitus, miks `a=x` ei piisa; vaja ka **r**.
+## 2 Ülesanne ##
+<img width="825" height="980" alt="teine" src="https://github.com/user-attachments/assets/cded458a-8117-4bc6-8e95-12d83d611c8d" />
 
-## Ülesanne 5-3
-Miks igal kasutajal on oma nimeline grupp (umask 0002 loogika).
+## 3 Ülesanne ##
+Käsujada: ps -axu | grep daemon | tr -s ' ' | cut -d' ' -f11-
+<img width="1708" height="1382" alt="kolmas" src="https://github.com/user-attachments/assets/61d3cc77-e1b0-42a6-aed8-c44b52da991d" />
 
-## Ülesanne 5-4
-- Lühiselgitus: kaustal **g+x**, failil **g+r**.
-- Lisa siia **ekraanipildid** või kleebi käskude `id`, `ls -la`, `cat uusfail.txt` väljundid (kui tekstina on lubatud).
+## 4 Ülesanne ##
+Käsujada: ip a | grep 'inet ' | grep -v '127.0.0.1' | tr -s ' ' | cut -d' ' -f3 | cut -d' ' -f3 | cut -d'/' -f1
+<img width="1705" height="1392" alt="neljas" src="https://github.com/user-attachments/assets/7228c625-70ef-4988-899a-05cabb459d15" />
 
-## Ülesanne 5-5
-- Pilt: `ls -l hinded.txt`, `ls -l hindedJukul`, `jukuisa` käivitus + väljund.
-- Lühiselgitus: setuid eesmärk.
-
-## Ülesanne 5-6
-Turvariskide arutelu (privilege escalation, env, race).
-
-## Ülesanne 5-7
-Sticky bit kustutamisreeglid: **faili omanik**, **kausta omanik**, **root**.
-
-## Ülesanne 5-8
-- `ls -l` tähelepanek: režiimil **+**.
-- **`getfacl hinded.txt`** täielik väljund (kopeeri siia).
-
-## Ülesanne 5-9
-- Kes saab kirjutada: **keegi** enne `chattr -i` eemaldamist.
-- Kustutamiseks: `sudo chattr -i testfail-2` → `rm testfail-2`.
+## 5 Ülesanne ## 
