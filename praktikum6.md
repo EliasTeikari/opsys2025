@@ -19,33 +19,24 @@ Käsujada: ip a | grep 'inet ' | grep -v '127.0.0.1' | tr -s ' ' | cut -d' ' -f3
 ### 1. WM_MOUSEMOVE ###
 
 Sõnum saadetakse protsessile iga kord, kui kasutaja liigutab hiirt akna kliendiala piires. wParam = 0, näitab, et hiirenuppe ega modifikaatorklahve (nt SHIFT, CTRL) polnud all.
-lParam = 327686 sisaldab hiire X- ja Y-koordinaate akna suhtes.
-Koordinaadid on pakitud 32-bitisesse väärtusesse: madalam sõna = X, kõrgem sõna = Y.
+lParam = 327686 sisaldab hiire X- ja Y-koordinaate akna suhtes. Koordinaadid on pakitud 32-bitisesse väärtusesse: madalam sõna = X, kõrgem sõna = Y.
 Antud näites:
 X = 327686 % 65536 = 6
 Y = 327686 // 65536 = 5
 See tähendab, et hiirt liigutati akna kliendialal asukohta (X=6, Y=5).
-Sõnum saadetakse väga sageli (iga kord, kui hiire positsioon muutub).
-
-Infoallikas:
-[https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-mousemove](https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-mousemove)
+Sõnum saadetakse väga sageli (iga kord, kui hiire positsioon muutub). [https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-mousemove](https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-mousemove)
 
 ### 2. WM_KEYDOWN ###
 
 Sõnum saadetakse protsessile siis, kui kasutaja vajutab mõne klahvi alla.
 wParam = 65 virtuaalklahvi kood (VK_A), ehk klahv “A”.
-lParam = 1 sisaldab kordusloendurit ja muid bitti-infot, kuid siin tähendab see, et klahv vajutati esimest korda. See sõnum annab protsessile teada, et klahv on alla vajutatud (enne kui see vabastatakse, saadetakse hiljem WM_KEYUP). Windows saadab selle protsessile iga kord, kui kasutaja vajutab klaviatuuril mõne klahvi, millel on fookus vastavas aknas.
-
-Infoallikas:
-[https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-keydown](https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-keydown)
+lParam = 1 sisaldab kordusloendurit ja muid bitti-infot, kuid siin tähendab see, et klahv vajutati esimest korda. See sõnum annab protsessile teada, et klahv on alla vajutatud (enne kui see vabastatakse, saadetakse hiljem WM_KEYUP). Windows saadab selle protsessile iga kord, kui kasutaja vajutab klaviatuuril mõne klahvi, millel on fookus vastavas aknas. [https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-keydown](https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-keydown)
 
 
 Sain ka mõned “???” sõnumid, mille ID väärtused olid alla 45000.
 Ühe neist õnnestus kindlaks teha:
 
-```
 22:51:03.422,274,"???",0,0
-```
 
 See vastab sõnumile WM_SYSCOMMAND (ID 274), mida Windows saadab siis, kui kasutaja klikib akna tiitliriba nupul (nt minimeerimine, maksimeerimine või sulgemine). Antud sõnum ei olnud tõlketabelis (konst.csv), seetõttu kuvatigi nime asemel “???”.
 Infoallikas:
