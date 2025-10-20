@@ -27,4 +27,13 @@ Ubuntu asendas auto väärtusega fuseblk, mis näitab, et tegemist oli NTFS-fail
 Seade eemaldati käsuga sudo umount /media/usb, mille järel seda enam mount väljundis ei olnud.
 
 ### 6. task ###
+<img width="1333" height="357" alt="fstabnb" src="https://github.com/user-attachments/assets/caa10ff5-9859-4467-bcb7-1f6839d47e4a" />
+
+
+Faili /etc/fstab lõppu lisasin rea:
+UUID=60C0EA74C0EA4FB8  /mnt/bigdata  ntfs  defaults  0  0
+
+See rida tagab, et 4TB NTFS-ketas ühendatakse automaatselt Ubuntu käivitamisel kataloogi /mnt/bigdata.
+Testisin käsuga sudo mount -a, mis ei andnud vigu, ja kontrollisin lsblk väljundist, et seade /dev/sdc2 oli edukalt ühendatud.
+
 
