@@ -17,4 +17,6 @@ https://kodu.ut.ee/~eliasmikael/opsys/hdd.png
 ### 4. Lisage käsu ls -la /mnt/ut/public_html/opsys/ väljundi pilt aruandesse. ###
 <img width="673" height="152" alt="prax7-pilt4" src="https://github.com/user-attachments/assets/04e30f4d-a6d7-45ab-a1d8-1e678c725751" />
 
+### 4. task ###
+<img width="1078" height="761" alt="prax4-pilttttt" src="https://github.com/user-attachments/assets/b5daa66e-621a-48ca-b3f6-a76dfc350e84" />
 
