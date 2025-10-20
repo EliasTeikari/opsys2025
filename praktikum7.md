@@ -20,3 +20,11 @@ https://kodu.ut.ee/~eliasmikael/opsys/hdd.png
 ### 4. task ###
 <img width="1078" height="761" alt="prax4-pilttttt" src="https://github.com/user-attachments/assets/b5daa66e-621a-48ca-b3f6-a76dfc350e84" />
 
+### 5. task ###
+Käsk sudo mount -t auto -o ro /dev/sdc2 /media/usb ühendas seadme /dev/sdc2 kausta /media/usb.
+Parameeter -o ro määras seadme ainult lugemiseks (read-only) ja -t auto lasi Ubuntu-l automaatselt tuvastada failisüsteemi.
+Ubuntu asendas auto väärtusega fuseblk, mis näitab, et tegemist oli NTFS-failisüsteemiga.
+Seade eemaldati käsuga sudo umount /media/usb, mille järel seda enam mount väljundis ei olnud.
+
+### 6. task ###
+
