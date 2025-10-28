@@ -12,3 +12,4 @@
 <img width="1888" height="1414" alt="image" src="https://github.com/user-attachments/assets/37af562d-1c81-4b64-890e-b9dc72abd699" />
 
 ## Ülesanne 4 ##
+<img width="863" height="634" alt="image" src="https://github.com/user-attachments/assets/d25973ab-2e83-49fe-abd5-9a655995bfad" />
