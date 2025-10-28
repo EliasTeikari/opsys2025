@@ -7,3 +7,4 @@
 <img width="891" height="830" alt="image" src="https://github.com/user-attachments/assets/197d2162-3678-4540-8c3e-a20e958ffa95" />
 
 ## Ülesanne 3 ##
+<img width="1173" height="864" alt="image" src="https://github.com/user-attachments/assets/ba6e0c3e-3213-4850-a297-6f36ace2f3cf" />
