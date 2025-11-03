@@ -25,3 +25,11 @@ Valisin tarkvaraks Thunderbirdi. Thunderbird on Mozilla loodud e-posti ja uudist
 <img width="1277" height="1045" alt="image" src="https://github.com/user-attachments/assets/8fb2e6bb-91d0-4813-986d-b5ff5119a4fd" />
 
 ### Ülesanne 5 ###
+Kui sama nimega EXE-fail on olemas nii kasutaja kui süsteemi %Path% kaustades,
+siis Windows käivitab selle, mis leitakse esimesena otsingujärjekorras.
+Tavaliselt tähendab see, et jooksvasse kausta või kasutaja PATH-i kuuluv fail on prioriteetsem kui süsteemikausta oma.
+
+Linuxis toimub otsing $PATH muutujas vasakult paremale.
+Turvalisuse poolest on Linuxi lähenemine tugevam, sest tavakasutaja ei saa süsteemseid faile üle kirjutada ega samanimelisi programme süsteemikaustadesse lisada.
+
+
