@@ -45,3 +45,12 @@ Kui teenus peatada või määrata „Disabled“, siis süsteem kasutab klassika
 Teenuse keelamine ei kahjusta süsteemi toimimist, kuid muudab välimuse visuaalselt ebameeldivaks ja vähem kasutajasõbralikuks.
 
 Themes-teenus on vajalik esteetilise kasutajaliidese jaoks. Seda ei soovitata keelata, kui soovid säilitada Windowsi tänapäevase välimuse.
+
+### Ülesanne 7 ###
+
+<img width="829" height="446" alt="image" src="https://github.com/user-attachments/assets/73c5f0a1-3db9-45dc-81a2-bec931e774ec" />
+
+### Ülesanne 8 ###
+
+<img width="673" height="504" alt="image" src="https://github.com/user-attachments/assets/6d4d0dbc-030d-421f-af9d-c99395c0d83b" />
+Tegin täpselt juhendi järgi ja ootasin tund aega, et see update-iks, aga kahjuks see ei teinud seda.
