@@ -32,4 +32,16 @@ Tavaliselt tähendab see, et jooksvasse kausta või kasutaja PATH-i kuuluv fail 
 Linuxis toimub otsing $PATH muutujas vasakult paremale.
 Turvalisuse poolest on Linuxi lähenemine tugevam, sest tavakasutaja ei saa süsteemseid faile üle kirjutada ega samanimelisi programme süsteemikaustadesse lisada.
 
+### Ülesanne 6 ###
+<img width="646" height="663" alt="image" src="https://github.com/user-attachments/assets/d9941a8b-411b-4d7f-b74f-a1642d518fa3" />
+Valisin teenuse Themes. Service name: Themes
+Path to executable: C:\Windows\System32\svchost.exe -k netsvcs -p
+Startup type: Automatic
+Service status: Running
 
+Themes-teenus haldab kasutajaliidese välimust ja kujundusi Windowsis (nt tumerežiim, värviteemad, akna efektid ja taustad). See võimaldab süsteemil kuvada graafilise liidese (GUI) elemente kaasaegses stiilis ning hallata kasutaja poolt valitud kujundusi.
+Teenuse töötamine on vajalik kui soovid kasutada kaasaegset Windowsi välimust ja teemasid.
+Kui teenus peatada või määrata „Disabled“, siis süsteem kasutab klassikalist halli Windows 2000 stiili ja graafilised efektid kaovad.
+Teenuse keelamine ei kahjusta süsteemi toimimist, kuid muudab välimuse visuaalselt ebameeldivaks ja vähem kasutajasõbralikuks.
+
+Themes-teenus on vajalik esteetilise kasutajaliidese jaoks. Seda ei soovitata keelata, kui soovid säilitada Windowsi tänapäevase välimuse.
