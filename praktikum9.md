@@ -20,3 +20,8 @@ Valisin tarkvaraks Thunderbirdi. Thunderbird on Mozilla loodud e-posti ja uudist
 <img width="880" height="484" alt="image" src="https://github.com/user-attachments/assets/b33baca3-5e6c-4190-bd63-86b0185db1ac" />
 
 <img width="872" height="115" alt="image" src="https://github.com/user-attachments/assets/9c668fb9-5515-4121-a9a5-db9471da8e0d" />
+
+### Ülesanne 4 ###
+<img width="1277" height="1045" alt="image" src="https://github.com/user-attachments/assets/8fb2e6bb-91d0-4813-986d-b5ff5119a4fd" />
+
+### Ülesanne 5 ###
