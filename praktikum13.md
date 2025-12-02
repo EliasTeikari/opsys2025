@@ -1,4 +1,4 @@
-# Praktikum 13
+<img width="457" height="293" alt="image" src="https://github.com/user-attachments/assets/5f5e6634-d5e1-483c-9d87-d8e77de36acd" /># Praktikum 13
 
 ## Ülesanne 3
 ```bash
@@ -15,4 +15,20 @@ read martiklinumber
 echo "Sinu nimi on $nimi!"
 echo "Sinu eriala on $eriala!"
 echo "Sinu martiklinumber on $martiklinumber!"
+```
+
+
+## Ülesanne 4
+
+```bash
+#!/bin/bash
+valjund=$(ls)
+for i in $valjund
+do
+        if [ ${i##*.} = txt ]; then
+                uus_fail="${i/.txt/.csv}"
+                mv "$i" "$uus_fail"
+                echo "Nimetasin: $i -> $uus_fail"
+        fi
+done
 ```
