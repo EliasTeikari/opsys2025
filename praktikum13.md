@@ -66,3 +66,22 @@ done
 
 <img width="657" height="98" alt="image" src="https://github.com/user-attachments/assets/9b572f0d-1868-411f-804b-0db8d9199320" />
 
+## Ülesanne 6
+```bash
+#!/bin/bash
+
+astenda() {
+        t=1
+        i=1
+        while [ $i -le $2 ]
+        do
+                t=$(($t * $1))
+                i=$(($i + 1))
+        done
+        echo $t
+}
+
+vastus=$(astenda 9 5)
+echo "9 astmes 5 = $vastus"
+```
+<img width="603" height="52" alt="image" src="https://github.com/user-attachments/assets/836409f5-8266-43f8-b7b6-f191140d0e85" />
