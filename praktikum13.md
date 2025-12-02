@@ -16,22 +16,27 @@ echo "Sinu nimi on $nimi!"
 echo "Sinu eriala on $eriala!"
 echo "Sinu martiklinumber on $martiklinumber!"
 ```
+<img width="632" height="248" alt="image" src="https://github.com/user-attachments/assets/ee07b7cf-dd3c-4d79-950f-ac92a7e5e0ac" />
 
 
 ## Ülesanne 4
 
 ```bash
 #!/bin/bash
-valjund=$(ls)
-for i in $valjund
-do
-        if [ ${i##*.} = txt ]; then
-                uus_fail="${i/.txt/.csv}"
-                mv "$i" "$uus_fail"
-                echo "Nimetasin: $i -> $uus_fail"
-        fi
+
+vana=".$1"
+uus=".$2"
+
+for fail in *$vana; do
+    [ -e "$fail" ] || continue
+
+    uus_fail="${fail/$vana/$uus}"
+
+    mv "$fail" "$uus_fail"
+    echo "Nimetasin ümber: $fail -> $uus_fail"
 done
 ```
+<img width="733" height="199" alt="image" src="https://github.com/user-attachments/assets/d978cca5-1d7f-417a-b98e-8ecc1035b334" />
 
 ## Ülesanne 5
 
@@ -58,3 +63,6 @@ do
 done
 
 ```
+
+<img width="657" height="98" alt="image" src="https://github.com/user-attachments/assets/9b572f0d-1868-411f-804b-0db8d9199320" />
+
