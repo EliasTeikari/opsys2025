@@ -1,4 +1,4 @@
-<img width="457" height="293" alt="image" src="https://github.com/user-attachments/assets/5f5e6634-d5e1-483c-9d87-d8e77de36acd" /># Praktikum 13
+# Praktikum 13
 
 ## Ülesanne 3
 ```bash
