@@ -32,3 +32,29 @@ do
         fi
 done
 ```
+
+## Ülesanne 5
+
+```bash
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+        echo "Kasutus: $0 <protsessi_nimi>"
+        exit 1
+fi
+
+protsess=$1
+IFS=$'\n'
+
+for line in $(ps -A)
+do
+        clean=$(echo " $line" | tr -s ' ')
+        pid=$(echo $clean | cut -d ' ' -f2)
+        name=$(echo $clean | cut -d ' ' -f5)
+
+        if [ "$name" = "$protsess" ]; then
+                echo "PID: $pid Nimi: $name"
+        fi
+done
+
+```
