@@ -85,3 +85,9 @@ vastus=$(astenda 9 5)
 echo "9 astmes 5 = $vastus"
 ```
 <img width="603" height="52" alt="image" src="https://github.com/user-attachments/assets/836409f5-8266-43f8-b7b6-f191140d0e85" />
+
+## Ülesanne 7
+
+<img width="788" height="261" alt="image" src="https://github.com/user-attachments/assets/bc3050d4-7f09-4af9-8d65-dd0326aa6506" />
+
+<img width="1363" height="797" alt="image" src="https://github.com/user-attachments/assets/158c34a1-0246-4f00-96fd-42560081e588" />
